@@ -2,6 +2,20 @@
 .menu-header,.menu-responsive-header {
     list-style-type: none;
 }
+.nav_responsive {
+    position: absolute;
+    display: none;
+    top: 70px;
+    width: 100%;
+    text-align: center;
+    font-family:"Drive", sans-serif;
+    font-weight:400;
+    font-style:normal;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    margin-bottom: 5em;
+    background-color: white;
+}
 
 body {
     background-image: url(../images/background.png);
@@ -25,20 +39,6 @@ header {
 }
 
 .nav_primary {
-    position: absolute;
-    display: block;
-    top: 70px;
-    width: 100%;
-    text-align: center;
-    font-family:"Drive", sans-serif;
-    font-weight:400;
-    font-style:normal;
-    font-size: 0.9em;
-    text-transform: uppercase;
-    margin-bottom: 5em;
-}
-
-.nav_responsive {
     position: absolute;
     display: block;
     top: 70px;
